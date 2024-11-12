@@ -19,4 +19,5 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('api/signup/', views.signup, name='signup'),
 ]
